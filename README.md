@@ -23,3 +23,5 @@ This home dataset contains house sale prices for King County, which includes Sea
 - long - Longitude 
 - sqft_living15 - The square footage of interior housing living space for the nearest 15 neighbors 
 - sqft_lot15 - The square footage of the land lots of the nearest 15 neighbors 
+
+Accuracy Metric: RMSE between the logarithm of the predicted value and the logarithm of the observed sales price will be used to evaluate the prediction accuracy. (Taking logs means that errors in predicting expensive houses and cheap houses will affect the result equally.)
